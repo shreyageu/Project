@@ -3,27 +3,27 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family:"lato", "cursive";
   padding: 0;
   margin: 0;
 }
 
 nav {
-  background-color: #111;
-  color: white;
+  background-color: rgb(14, 14, 14);
+  color: rgb(194, 18, 18);
   padding: 20px 50px;
 }
 
 .navTop {
-  display: flex;
-  align-items: center;
+  display: flex; 
+  align-items: right;
   justify-content: space-between;
 }
 
 .search {
   display: flex;
   align-items: center;
-  background-color: gray;
+  background-color: rgb(116, 114, 114);
   padding: 10px 20px;
   border-radius: 10px;
 }
@@ -34,7 +34,7 @@ nav {
 }
 
 .searchInput::placeholder {
-  color: lightgray;
+  color: rgb(145, 27, 27);
 }
 
 .limitedOffer {
@@ -53,7 +53,7 @@ nav {
   margin-right: 50px;
   cursor: pointer;
   color: lightgray;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .slider {
@@ -95,8 +95,8 @@ nav {
   font-weight: 900;
   text-align: center;
   color: white;
-  z-index: 1;
-}
+  z-index: 10;
+.}
 
 .sliderPrice {
   position: absolute;
